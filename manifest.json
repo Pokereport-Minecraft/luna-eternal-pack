@@ -1519,6 +1519,24 @@
       "urls": [
         "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/cobblemon-cards-2266d59eb4.json"
       ]
+    },
+    {
+      "path": "mods/pokereport-spectral-mobs-1.1.0.jar",
+      "sha1": "462b0226289961abfd239c9fda058bbdb03f5c34",
+      "size": 1187152,
+      "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-1.1.0-462b022628.jar",
+      "urls": [
+        "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-1.1.0-462b022628.jar"
+      ]
+    },
+    {
+      "path": "mods/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
+      "sha1": "df8c60b5184b910b33dc1e4236ba14de06551a37",
+      "size": 280910,
+      "url": "https://github.com/thewinnt/Cutscene-API/releases/download/v1.6.6-1.21.1/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
+      "urls": [
+        "https://github.com/thewinnt/Cutscene-API/releases/download/v1.6.6-1.21.1/cutscene-api-mc1.21.1-fabric-1.6.6.jar"
+      ]
     }
   ]
 }
