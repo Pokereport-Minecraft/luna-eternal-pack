@@ -1218,12 +1218,12 @@
       ]
     },
     {
-      "path": "mods/EuphoriaPatcher-1.10.0-r5.9-fabric.jar",
-      "sha1": "7b8a6f26e5da74d45c02acb1bf4a176cfe1c7367",
-      "size": 4565030,
-      "url": "https://cdn.modrinth.com/data/4H6sumDB/versions/ZitFh163/EuphoriaPatcher-1.10.0-r5.9-fabric.jar",
+      "path": "mods/EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar",
+      "sha1": "3e2d5b02476337413fb1afba9bf74f9383338daf",
+      "size": 4602936,
+      "url": "https://cdn.modrinth.com/data/4H6sumDB/versions/YYczPGkW/EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar",
       "urls": [
-        "https://cdn.modrinth.com/data/4H6sumDB/versions/ZitFh163/EuphoriaPatcher-1.10.0-r5.9-fabric.jar"
+        "https://cdn.modrinth.com/data/4H6sumDB/versions/YYczPGkW/EuphoriaPatcher-1.10.5-r5.9.3-fabric.jar"
       ]
     },
     {
@@ -1537,6 +1537,40 @@
       "urls": [
         "https://github.com/thewinnt/Cutscene-API/releases/download/v1.6.6-1.21.1/cutscene-api-mc1.21.1-fabric-1.6.6.jar"
       ]
+    },
+    {
+      "path": "mods/sodium-extra-fabric-0.9.4+mc1.21.1.jar",
+      "sha1": "628487b330c9589d26cada5c4a51ac457af80a1f",
+      "size": 472019,
+      "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/YEWu6red/sodium-extra-fabric-0.9.4%2Bmc1.21.1.jar",
+      "urls": [
+        "https://cdn.modrinth.com/data/PtjYWJkn/versions/YEWu6red/sodium-extra-fabric-0.9.4%2Bmc1.21.1.jar"
+      ]
+    },
+    {
+      "path": "mods/smart_particles+mc1.21.1-1.01.10.jar",
+      "sha1": "53155b5d35a0006b938cb35559fc548666674abf",
+      "size": 50316,
+      "url": "https://cdn.modrinth.com/data/l8rWP4Tc/versions/p2inNior/smart_particles%2Bmc1.21.1-1.01.10.jar",
+      "urls": [
+        "https://cdn.modrinth.com/data/l8rWP4Tc/versions/p2inNior/smart_particles%2Bmc1.21.1-1.01.10.jar"
+      ]
+    },
+    {
+      "path": "mods/language-reload-1.7.6+1.21.1.jar",
+      "sha1": "95c1266f43e330d4848dcf2e11a6be98a8990ce5",
+      "size": 75091,
+      "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/lLMGPiZe/language-reload-1.7.6%2B1.21.1.jar",
+      "urls": [
+        "https://cdn.modrinth.com/data/uLbm7CG6/versions/lLMGPiZe/language-reload-1.7.6%2B1.21.1.jar"
+      ]
+    },
+    {
+      "path": "config/smart_particles/config.json",
+      "sha1": "e26093cd3bc7e1cfc96846207435069a5fdd21e3",
+      "size": 59,
+      "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/smart-particles-defaults-e26093cd3b.json",
+      "once": true
     }
   ]
 }
