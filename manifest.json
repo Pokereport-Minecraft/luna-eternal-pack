@@ -1571,6 +1571,12 @@
       "size": 59,
       "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/smart-particles-defaults-e26093cd3b.json",
       "once": true
+    },
+    {
+      "path": "mods/pokereport-spectral-blocks-1.0.0.jar",
+      "sha1": "c28ccfe0980619a546c7fefbaa42bbbb0f5ccaf1",
+      "size": 468419,
+      "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-blocks-1.0.0-c28ccfe09806.jar"
     }
   ]
 }
