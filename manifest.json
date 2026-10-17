@@ -1521,13 +1521,13 @@
       ]
     },
     {
-      "path": "mods/pokereport-spectral-mobs-1.3.1-client-fix.jar",
-      "sha1": "058dacd6435ec8cfd5c53014f6ec965c5e9fac0a",
-      "size": 9939327,
-      "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-1.3.1-client-fix-058dacd643.jar",
+      "path": "mods/pokereport-spectral-mobs-2.0.0-entry-staging.jar",
+      "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.0-entry-staging-4f8ffcc3be.jar",
       "urls": [
-        "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-1.3.1-client-fix-058dacd643.jar"
-      ]
+        "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.0-entry-staging-4f8ffcc3be.jar"
+      ],
+      "sha1": "4f8ffcc3be565e0896835d868040b4f23c100f8e",
+      "size": 14499573
     },
     {
       "path": "mods/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
