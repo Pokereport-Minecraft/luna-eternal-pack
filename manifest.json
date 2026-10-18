@@ -1374,20 +1374,20 @@
     },
     {
       "path": "mods/lunaneon-0.1.0.jar",
-      "sha1": "1c8bd744f49099ebcaf8a235924be5418c5b3290",
-      "size": 5843451,
-      "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/lunaneon-0.1.0-1c8bd744f4.jar",
+      "sha1": "ac71c6a79788dfe428f0e69dfd46e330900bd9ef",
+      "size": 5798089,
+      "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/lunaneon-regional-ac71c6a797.jar",
       "urls": [
-        "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/lunaneon-0.1.0-1c8bd744f4.jar"
+        "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/lunaneon-regional-ac71c6a797.jar"
       ]
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "89a7aebfbdef7a961f480fe4dd1d74d89268d74f",
-      "size": 141445646,
-      "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-89a7aebfbd.jar",
+      "sha1": "7804ae90f5583ea849155eaf0171bd28c0ce7964",
+      "size": 141552131,
+      "url": "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-7804ae90f5.jar",
       "urls": [
-        "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-89a7aebfbd.jar"
+        "https://github.com/corderovibes-collab/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-7804ae90f5.jar"
       ]
     },
     {
