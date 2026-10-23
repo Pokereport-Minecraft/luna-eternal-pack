@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.1",
+  "packVersion": "0.4.2",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1383,11 +1383,11 @@
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "b9069b75b430aba76f42518de7bc2180cd27ed62",
-      "size": 141823901,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-gym-pokepad-29f72ff17f-b9069b75b4.jar",
+      "sha1": "9b803cb1acd9e262ecb4d29367e0fe4959368f1f",
+      "size": 141858890,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-pokepad-plata-9b803cb1acd9.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-gym-pokepad-29f72ff17f-b9069b75b4.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-pokepad-plata-9b803cb1acd9.jar"
       ]
     },
     {
