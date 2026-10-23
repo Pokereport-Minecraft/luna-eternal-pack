@@ -1522,12 +1522,12 @@
     },
     {
       "path": "mods/pokereport-spectral-mobs-2.0.1-entry-staging.jar",
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.1-entry-staging-7be59f5c4a.jar",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.1-entry-staging-d1b472f0c9.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.1-entry-staging-7be59f5c4a.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.1-entry-staging-d1b472f0c9.jar"
       ],
-      "sha1": "7be59f5c4a65d3e45065d0209082a1c7c0efd4cd",
-      "size": 9702937
+      "sha1": "d1b472f0c91960ec0e09db0df3335560bc9858d0",
+      "size": 9702944
     },
     {
       "path": "mods/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
