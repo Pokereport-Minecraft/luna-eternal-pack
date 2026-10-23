@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.0",
+  "packVersion": "0.4.1",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1383,11 +1383,11 @@
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "9b20e15e1bc3ea65d2c883e77642bb0f94ca2a42",
-      "size": 141592013,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-single-salvaje-0f5fda30d5-9b20e15e1b.jar",
+      "sha1": "b9069b75b430aba76f42518de7bc2180cd27ed62",
+      "size": 141823901,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-gym-pokepad-29f72ff17f-b9069b75b4.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-single-salvaje-0f5fda30d5-9b20e15e1b.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-gym-pokepad-29f72ff17f-b9069b75b4.jar"
       ]
     },
     {
