@@ -1,0 +1,142 @@
+name: Publish client pack manifest
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: Type PUBLICAR_0.4.5 to activate this client pack
+        required: true
+        type: string
+      candidate:
+        description: Reviewed candidate manifest in this repository
+        required: true
+        default: candidates/manifest-0.4.5-halloween-entry-recovery.json
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-client-pack
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        env:
+          CONFIRMATION: ${{ inputs.confirmation }}
+          CANDIDATE: ${{ inputs.candidate }}
+        with:
+          script: |
+            const fs = require('fs');
+            const crypto = require('crypto');
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const fail = (message) => { throw new Error(message); };
+            const canonical = (value) => JSON.stringify(value, (_key, item) => item && !Array.isArray(item) && typeof item === 'object' ? Object.fromEntries(Object.entries(item).sort(([a], [b]) => a.localeCompare(b))) : item);
+            if (process.env.CONFIRMATION !== 'PUBLICAR_0.4.5') fail('Confirmation does not match the reviewed release.');
+            if (process.env.CANDIDATE !== 'candidates/manifest-0.4.5-halloween-entry-recovery.json') fail('Only the reviewed candidate is permitted.');
+
+            const candidate = JSON.parse(fs.readFileSync(process.env.CANDIDATE, 'utf8'));
+            if (candidate.packVersion !== '0.4.5' || !Array.isArray(candidate.files)) fail('Candidate schema or version is invalid.');
+            const releases = await github.rest.repos.listReleases({ owner, repo, per_page: 100 });
+            const release = (tag) => releases.data.find((r) => r.tag_name === tag);
+            const packAssets = release('pack-assets');
+            const pointerRelease = release('pack-manifest');
+            if (!packAssets || !pointerRelease) fail('Required pack-assets or pack-manifest release is missing.');
+            const assetUrl = (rel, name) => `https://github.com/${owner}/${repo}/releases/download/${rel.tag_name}/${name}`;
+            const fetchBytes = async (url) => {
+              const response = await fetch(url, { cache: 'no-store' });
+              if (!response.ok) fail(`Download failed (${response.status}): ${url}`);
+              return Buffer.from(await response.arrayBuffer());
+            };
+            const oldLatestBytes = await fetchBytes(assetUrl(pointerRelease, 'latest.json'));
+            const oldLatest = JSON.parse(oldLatestBytes.toString('utf8'));
+            if (oldLatest.packVersion !== '0.4.4') fail(`Expected current pack 0.4.4, found ${oldLatest.packVersion}.`);
+            const previousManifest = JSON.parse((await fetchBytes(oldLatest.manifest)).toString('utf8'));
+            if (previousManifest.packVersion !== '0.4.4') fail('Live manifest does not match the current pointer.');
+
+            const spectral = candidate.files.filter((f) => f.path === 'mods/pokereport-spectral-mobs-2.0.3-entry-recovery-6a77368a5f.jar');
+            if (spectral.length !== 1) fail('Candidate must contain exactly one reviewed spectral JAR.');
+            const target = spectral[0];
+            const oldSpectral = previousManifest.files.filter((f) => f.path.startsWith('mods/pokereport-spectral-mobs-'));
+            if (oldSpectral.length !== 1) fail('Live manifest has an unexpected number of spectral JARs.');
+            const expectedJarUrl = assetUrl(packAssets, 'pokereport-spectral-mobs-2.0.3-entry-recovery-6a77368a5f.jar');
+            if (target.url !== expectedJarUrl || !Array.isArray(target.urls) || target.urls.length !== 1 || target.urls[0] !== expectedJarUrl) fail('Candidate JAR URL is not the reviewed release asset.');
+            const jarBytes = await fetchBytes(expectedJarUrl);
+            const jarSha1 = crypto.createHash('sha1').update(jarBytes).digest('hex');
+            if (jarSha1 !== target.sha1 || jarBytes.length !== target.size || jarSha1 !== '6a77368a5f876da20744261cb9d63623c899ce02') fail('JAR checksum or size verification failed.');
+
+            const expectedFiles = structuredClone(previousManifest.files);
+            const oldIndex = expectedFiles.findIndex((f) => f.path === oldSpectral[0].path);
+            if (oldIndex < 0) fail('Could not locate current spectral JAR entry.');
+            expectedFiles[oldIndex] = target;
+            if (canonical(candidate.files) !== canonical(expectedFiles)) fail('Candidate changes files outside the single reviewed spectral JAR.');
+            const expectedTop = { ...previousManifest, packVersion: '0.4.5', files: expectedFiles };
+            if (canonical(candidate) !== canonical(expectedTop)) fail('Candidate changes fields outside the reviewed version and JAR.');
+
+            const manifestBytes = Buffer.from(JSON.stringify(candidate, null, 2) + '\n');
+            const manifestSha1 = crypto.createHash('sha1').update(manifestBytes).digest('hex');
+            const manifestName = `manifest-${manifestSha1.slice(0, 10)}.json`;
+            const manifestUrl = assetUrl(packAssets, manifestName);
+            const latestBytes = Buffer.from(JSON.stringify({
+              packVersion: '0.4.5', manifest: manifestUrl, sha1: manifestSha1,
+              size: manifestBytes.length, publicado: new Date().toISOString()
+            }, null, 2) + '\n');
+
+            const assetByName = (rel, name) => rel.assets.find((a) => a.name === name);
+            const uploadAsset = async (rel, name, bytes) => {
+              const existing = assetByName(rel, name);
+              if (existing) await github.rest.repos.deleteReleaseAsset({ owner, repo, asset_id: existing.id });
+              const uploaded = await github.rest.repos.uploadReleaseAsset({
+                owner, repo, release_id: rel.id, name,
+                data: bytes,
+                headers: { 'content-type': 'application/json', 'content-length': bytes.length }
+              });
+              rel.assets = rel.assets.filter((a) => a.name !== name).concat(uploaded.data);
+              return uploaded.data;
+            };
+            const pointerAsset = assetByName(pointerRelease, 'latest.json');
+            if (!pointerAsset) fail('Current latest.json asset is missing.');
+            const fallback = await github.rest.repos.getContent({ owner, repo, path: 'manifest.json', ref: context.payload.repository.default_branch });
+            const fallbackBytes = Buffer.from(fallback.data.content, 'base64');
+            let fallbackUpdatedSha = null;
+            let pointerChanged = false;
+            try {
+              await uploadAsset(packAssets, manifestName, manifestBytes);
+              const updatedFallback = await github.rest.repos.createOrUpdateFileContents({
+                owner, repo, path: 'manifest.json', branch: context.payload.repository.default_branch,
+                message: 'release(pack): publish Halloween entry recovery 0.4.5',
+                content: manifestBytes.toString('base64'), sha: fallback.data.sha
+              });
+              fallbackUpdatedSha = updatedFallback.data.content.sha;
+              pointerChanged = true;
+              const newPointerAsset = await uploadAsset(pointerRelease, 'latest.json', latestBytes);
+              const check = await github.request('GET /repos/{owner}/{repo}/releases/assets/{asset_id}', {
+                owner, repo, asset_id: newPointerAsset.id,
+                headers: { accept: 'application/octet-stream', 'cache-control': 'no-cache' }
+              });
+              const checkBytes = Buffer.isBuffer(check.data) ? check.data : Buffer.from(check.data);
+              const checkPointer = JSON.parse(checkBytes.toString('utf8'));
+              if (checkPointer.packVersion !== '0.4.5' || checkPointer.sha1 !== manifestSha1 || checkPointer.manifest !== manifestUrl) fail('Published pointer verification failed.');
+              core.notice(`Activated pack 0.4.5: ${manifestUrl} (sha1 ${manifestSha1}).`);
+            } catch (error) {
+              if (pointerChanged) {
+                try { await uploadAsset(pointerRelease, 'latest.json', oldLatestBytes); }
+                catch (rollbackError) { core.error(`URGENT: latest.json rollback failed: ${rollbackError.message}`); }
+              }
+              if (fallbackUpdatedSha) {
+                try {
+                  await github.rest.repos.createOrUpdateFileContents({
+                    owner, repo, path: 'manifest.json', branch: context.payload.repository.default_branch,
+                    message: 'rollback(pack): restore fallback manifest after failed release',
+                    content: fallbackBytes.toString('base64'), sha: fallbackUpdatedSha
+                  });
+                } catch (rollbackError) { core.error(`URGENT: manifest.json rollback failed: ${rollbackError.message}`); }
+              }
+              throw error;
+            }
