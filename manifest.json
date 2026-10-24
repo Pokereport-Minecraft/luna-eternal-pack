@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.3",
+  "packVersion": "0.4.5",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1382,12 +1382,12 @@
       ]
     },
     {
-      "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "5fb3ccdb7228fe99237a65b89ff91720b39ca8ab",
-      "size": 141856574,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-5fb3ccdb72.jar",
+      "path": "mods/lunaeternal-0.1.0-main-60bdf95e.jar",
+      "sha1": "26533f6e132f5b118d6b4ec4f2ef88b840e3368e",
+      "size": 141858698,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-main-60bdf95e.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-5fb3ccdb72.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-main-60bdf95e.jar"
       ]
     },
     {
@@ -1521,13 +1521,13 @@
       ]
     },
     {
-      "path": "mods/pokereport-spectral-mobs-2.0.2-entry-staging.jar",
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.2-entry-staging-f72c815f44.jar",
+      "path": "mods/pokereport-spectral-mobs-2.0.3-entry-recovery-6a77368a5f.jar",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.3-entry-recovery-6a77368a5f.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.2-entry-staging-f72c815f44.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.3-entry-recovery-6a77368a5f.jar"
       ],
-      "sha1": "f72c815f44ec47042c5085d66595eed50beedcd8",
-      "size": 9717205
+      "sha1": "6a77368a5f876da20744261cb9d63623c899ce02",
+      "size": 9722267
     },
     {
       "path": "mods/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
