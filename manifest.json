@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.8",
+  "packVersion": "0.4.9",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -62,15 +62,6 @@
       "once": true,
       "urls": [
         "https://cdn.modrinth.com/data/1jZGHJ05/versions/RP4ozzMC/Low%20Fire.zip"
-      ]
-    },
-    {
-      "path": "mods/forgivingvoid-fabric-1.21.1-21.1.7.jar",
-      "sha1": "be9be65f0b23bc751f0768af9c921a1483a06aa9",
-      "size": 78531,
-      "url": "https://cdn.modrinth.com/data/1vkzEZjE/versions/HGbKoEgt/forgivingvoid-fabric-1.21.1-21.1.7.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/1vkzEZjE/versions/HGbKoEgt/forgivingvoid-fabric-1.21.1-21.1.7.jar"
       ]
     },
     {
@@ -173,15 +164,6 @@
       ]
     },
     {
-      "path": "mods/lenientdeath-1.2.5+1.21.1.jar",
-      "sha1": "cca7eb614db1053e9b8f8f413bc7bc82edcd472a",
-      "size": 920915,
-      "url": "https://cdn.modrinth.com/data/Bfi1KBJV/versions/FUbtsgt9/lenientdeath-1.2.5%2B1.21.1.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/Bfi1KBJV/versions/FUbtsgt9/lenientdeath-1.2.5%2B1.21.1.jar"
-      ]
-    },
-    {
       "path": "mods/ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar",
       "sha1": "ea53b83821e3a584159d0bca490e2460e27c616d",
       "size": 80827,
@@ -228,15 +210,6 @@
       ]
     },
     {
-      "path": "mods/netherportalfix-fabric-1.21.1-21.1.3.jar",
-      "sha1": "970677295778926b09c3539b38e884854bc4d3c7",
-      "size": 213294,
-      "url": "https://cdn.modrinth.com/data/nPZr02ET/versions/9KrnphgC/netherportalfix-fabric-1.21.1-21.1.3.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/nPZr02ET/versions/9KrnphgC/netherportalfix-fabric-1.21.1-21.1.3.jar"
-      ]
-    },
-    {
       "path": "mods/StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
       "sha1": "c36982af69e6d9d9dbac52e4d6c43e8a64fc6163",
       "size": 321213,
@@ -246,48 +219,12 @@
       ]
     },
     {
-      "path": "mods/playerxp-fabric-1.1.2+1.21.1.jar",
-      "sha1": "1e33ca6f10e39da40a04e01651f3f107927d67c9",
-      "size": 16893,
-      "url": "https://cdn.modrinth.com/data/zlrbPCvu/versions/so3mMuer/playerxp-fabric-1.1.2%2B1.21.1.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/zlrbPCvu/versions/so3mMuer/playerxp-fabric-1.1.2%2B1.21.1.jar"
-      ]
-    },
-    {
       "path": "mods/owo-lib-0.12.15.4+1.21.jar",
       "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d",
       "size": 1183559,
       "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar",
       "urls": [
         "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar"
-      ]
-    },
-    {
-      "path": "mods/zfastnoise-1.0.13+1.21.jar",
-      "sha1": "9cd00c39b86e81e9ed11ce8148739bc3889c7c60",
-      "size": 38857,
-      "url": "https://cdn.modrinth.com/data/OnlVIpq5/versions/tss0FueO/zfastnoise-1.0.13%2B1.21.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/OnlVIpq5/versions/tss0FueO/zfastnoise-1.0.13%2B1.21.jar"
-      ]
-    },
-    {
-      "path": "mods/SafePastures-1.1.1+1.21.1.jar",
-      "sha1": "da4ca736f1390553380dd1f8b596f17d35fafded",
-      "size": 16518,
-      "url": "https://cdn.modrinth.com/data/qpe01spE/versions/ahfbSTCi/SafePastures-1.1.1%2B1.21.1.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/qpe01spE/versions/ahfbSTCi/SafePastures-1.1.1%2B1.21.1.jar"
-      ]
-    },
-    {
-      "path": "mods/advancementdisable-fabric-1.0.1+1.21.jar",
-      "sha1": "32190447e74e705c799641d4a7392b396df63962",
-      "size": 430411,
-      "url": "https://cdn.modrinth.com/data/XIsVTmcm/versions/Txi9EkP3/advancementdisable-fabric-1.0.1%2B1.21.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/XIsVTmcm/versions/Txi9EkP3/advancementdisable-fabric-1.0.1%2B1.21.jar"
       ]
     },
     {
@@ -360,15 +297,6 @@
       "url": "https://cdn.modrinth.com/data/vADO40xp/versions/RU5Jluoq/catchrate-display-fabric-2.11.0.jar",
       "urls": [
         "https://cdn.modrinth.com/data/vADO40xp/versions/RU5Jluoq/catchrate-display-fabric-2.11.0.jar"
-      ]
-    },
-    {
-      "path": "mods/capturexp-fabric-1.8.1-1.3.0.jar",
-      "sha1": "434b37ee0c1554f59c5c229b619ff2d4037b6767",
-      "size": 23382,
-      "url": "https://cdn.modrinth.com/data/LBl4Qguc/versions/FOUiJc3h/capturexp-fabric-1.8.1-1.3.0.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/LBl4Qguc/versions/FOUiJc3h/capturexp-fabric-1.8.1-1.3.0.jar"
       ]
     },
     {
@@ -537,15 +465,6 @@
       ]
     },
     {
-      "path": "mods/nethermap-4.0.0-1.21.1.jar",
-      "sha1": "4a4849b36757a268253a3a87b4a02b60f59816a6",
-      "size": 21464,
-      "url": "https://cdn.modrinth.com/data/fdtm99de/versions/BEfm3cNd/nethermap-4.0.0-1.21.1.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/fdtm99de/versions/BEfm3cNd/nethermap-4.0.0-1.21.1.jar"
-      ]
-    },
-    {
       "path": "resourcepacks/EeveelutionsReimagined RP.zip",
       "sha1": "eb6e0ecfe1500ddebab3d68c6f664a6f2cfb0de3",
       "size": 315069,
@@ -608,15 +527,6 @@
       "url": "https://cdn.modrinth.com/data/i6fiqm5y/versions/BbIdNbF1/Platform-fabric-1.21.1-1.3.3.jar",
       "urls": [
         "https://cdn.modrinth.com/data/i6fiqm5y/versions/BbIdNbF1/Platform-fabric-1.21.1-1.3.3.jar"
-      ]
-    },
-    {
-      "path": "mods/timcore-fabric-1.8.1-1.32.1.jar",
-      "sha1": "5b73cfd2866f4db3caaa76ddaecc5e45f6cd6cda",
-      "size": 302823,
-      "url": "https://cdn.modrinth.com/data/lVP9aUaY/versions/hnix66jw/timcore-fabric-1.8.1-1.32.1.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/lVP9aUaY/versions/hnix66jw/timcore-fabric-1.8.1-1.32.1.jar"
       ]
     },
     {
@@ -802,15 +712,6 @@
       ]
     },
     {
-      "path": "mods/fabric-api-0.116.17+1.21.1.jar",
-      "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c",
-      "size": 2452735,
-      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar"
-      ]
-    },
-    {
       "path": "mods/mega_showdown-fabric-1.2.0+1.8.1+1.21.1-release.jar",
       "sha1": "2de9508dacfdc19ec05c8979c5dfe205fc6d7525",
       "size": 20152218,
@@ -835,15 +736,6 @@
       "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Tx54V6kI/xaerominimap-fabric-1.21.1-26.4.2.jar",
       "urls": [
         "https://cdn.modrinth.com/data/1bokaNcj/versions/Tx54V6kI/xaerominimap-fabric-1.21.1-26.4.2.jar"
-      ]
-    },
-    {
-      "path": "mods/villagerconfig-fabric-4.5.4+1.21.1.jar",
-      "sha1": "0b9c27925a041b3dee88bd10aa5e06ef7ee4f08d",
-      "size": 355303,
-      "url": "https://cdn.modrinth.com/data/OClpEDe3/versions/sb4XIWwK/villagerconfig-fabric-4.5.4%2B1.21.1.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/OClpEDe3/versions/sb4XIWwK/villagerconfig-fabric-4.5.4%2B1.21.1.jar"
       ]
     },
     {
@@ -1009,15 +901,6 @@
       ]
     },
     {
-      "path": "mods/MobsBeGone-0.0.9.jar",
-      "sha1": "5fd48e10f329c8a526565a9073e395f36c23b5b5",
-      "size": 10563,
-      "url": "https://cdn.modrinth.com/data/hXvXSxxg/versions/ZGbHcluC/MobsBeGone-0.0.9.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/hXvXSxxg/versions/ZGbHcluC/MobsBeGone-0.0.9.jar"
-      ]
-    },
-    {
       "path": "resourcepacks/Classic Grass.zip",
       "sha1": "d4877aea86f2428b8399ae14ef00b8deb11e26de",
       "size": 7418,
@@ -1061,15 +944,6 @@
       "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar",
       "urls": [
         "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar"
-      ]
-    },
-    {
-      "path": "mods/Cobbreeding-fabric-2.4.0.jar",
-      "sha1": "6dcd3bf356a55515489512623e33785c32e1a5da",
-      "size": 477755,
-      "url": "https://cdn.modrinth.com/data/ItmVb4zY/versions/r68eGAJ9/Cobbreeding-fabric-2.4.0.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/ItmVb4zY/versions/r68eGAJ9/Cobbreeding-fabric-2.4.0.jar"
       ]
     },
     {
@@ -1254,33 +1128,6 @@
       ]
     },
     {
-      "path": "mods/Almanac-1.21.1-2-fabric-1.5.2.jar",
-      "sha1": "f259ee1c7b7e4d9c4abd59cc38e200cb1766ef3b",
-      "size": 1039789,
-      "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/hUgNmeCO/Almanac-1.21.1-2-fabric-1.5.2.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/Gi02250Z/versions/hUgNmeCO/Almanac-1.21.1-2-fabric-1.5.2.jar"
-      ]
-    },
-    {
-      "path": "mods/letmedespawn-1.21.x-fabric-1.5.0.jar",
-      "sha1": "e88e3167ea203fae1b084360fc8242bdfff63128",
-      "size": 14791,
-      "url": "https://cdn.modrinth.com/data/vE2FN5qn/versions/Wb7jqi55/letmedespawn-1.21.x-fabric-1.5.0.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/vE2FN5qn/versions/Wb7jqi55/letmedespawn-1.21.x-fabric-1.5.0.jar"
-      ]
-    },
-    {
-      "path": "mods/image2map-0.7.1+1.21.jar",
-      "sha1": "3d5f143b3c4c151a2a6ced9dd6d0d319bccc5d9e",
-      "size": 332474,
-      "url": "https://cdn.modrinth.com/data/13RpG7dA/versions/IcHYiWHv/image2map-0.7.1%2B1.21.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/13RpG7dA/versions/IcHYiWHv/image2map-0.7.1%2B1.21.jar"
-      ]
-    },
-    {
       "path": "mods/Flashback-0.39.8-for-MC1.21.jar",
       "sha1": "b9180aac353f0dfff6a44039673d0ee8cf9f4a11",
       "size": 210810969,
@@ -1373,78 +1220,6 @@
       ]
     },
     {
-      "path": "mods/lunaneon-0.1.0.jar",
-      "sha1": "ac71c6a79788dfe428f0e69dfd46e330900bd9ef",
-      "size": 5798089,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaneon-regional-ac71c6a797.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaneon-regional-ac71c6a797.jar"
-      ]
-    },
-    {
-      "path": "mods/lunaeternal-0.1.0-main-60bdf95e.jar",
-      "sha1": "26533f6e132f5b118d6b4ec4f2ef88b840e3368e",
-      "size": 141858698,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-main-60bdf95e.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaeternal-0.1.0-main-60bdf95e.jar"
-      ]
-    },
-    {
-      "path": "mods/cobblemon-cards-1.0.5-luna1.jar",
-      "sha1": "8bc2992d9876c235a8e548749385fe70b2cc01ed",
-      "size": 23519539,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/cobblemon-cards-1.0.5-luna1-8bc2992d98.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/cobblemon-cards-1.0.5-luna1-8bc2992d98.jar"
-      ]
-    },
-    {
-      "path": "mods/cobblemon-additions-4.3.0-luna1.jar",
-      "sha1": "73366274a3b063f26c29e4a18b5cdf852e757844",
-      "size": 605112,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/cobblemon-additions-4.3.0-luna1-73366274a3.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/cobblemon-additions-4.3.0-luna1-73366274a3.jar"
-      ]
-    },
-    {
-      "path": "mods/magikarp-animated-armor-1.0.0.jar",
-      "sha1": "16eba5c814cae92ce0b89b8700a93a2aef704328",
-      "size": 44336,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/magikarp-animated-armor-1.0.0-16eba5c814.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/magikarp-animated-armor-1.0.0-16eba5c814.jar"
-      ]
-    },
-    {
-      "path": "mods/pikachu-animated-armor-1.0.0.jar",
-      "sha1": "21e4f3efccbbf884a29e569f85d92df1fb8335f4",
-      "size": 150367,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pikachu-animated-armor-1.0.0-21e4f3efcc.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pikachu-animated-armor-1.0.0-21e4f3efcc.jar"
-      ]
-    },
-    {
-      "path": "mods/eeveelution-armor-1.0.0.jar",
-      "sha1": "95dd5d5bf0c84a356a9c8b29760f2f2fe9058fb8",
-      "size": 319784,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/eeveelution-armor-1.0.0-95dd5d5bf0.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/eeveelution-armor-1.0.0-95dd5d5bf0.jar"
-      ]
-    },
-    {
-      "path": "mods/armaduraspokereport-kits-completo-1.0.0.jar",
-      "sha1": "4edb88a80df6c26bc30cd5654db1f9d6bba70f54",
-      "size": 674002,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/armaduraspokereport-kits-completo-1.0.0-4edb88a80d.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/armaduraspokereport-kits-completo-1.0.0-4edb88a80d.jar"
-      ]
-    },
-    {
       "path": "config",
       "sha1": "a13014414d8811506ef0553c2eaf658170cca1b8",
       "size": 218676,
@@ -1521,25 +1296,6 @@
       ]
     },
     {
-      "path": "mods/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar",
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-halloween-0.4.8/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-halloween-0.4.8/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar"
-      ],
-      "sha1": "ee9a027a02c73397211272cd224b1d9c130ea89d",
-      "size": 14586010,
-      "sha256": "9a46bf2f07cdf9fcfc5b2258f9716158269dc038ec4f24c76a56383bcd4ca87a"
-    },
-    {
-      "path": "mods/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
-      "sha1": "df8c60b5184b910b33dc1e4236ba14de06551a37",
-      "size": 280910,
-      "url": "https://github.com/thewinnt/Cutscene-API/releases/download/v1.6.6-1.21.1/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
-      "urls": [
-        "https://github.com/thewinnt/Cutscene-API/releases/download/v1.6.6-1.21.1/cutscene-api-mc1.21.1-fabric-1.6.6.jar"
-      ]
-    },
-    {
       "path": "mods/sodium-extra-fabric-0.9.4+mc1.21.1.jar",
       "sha1": "628487b330c9589d26cada5c4a51ac457af80a1f",
       "size": 472019,
@@ -1574,12 +1330,6 @@
       "once": true
     },
     {
-      "path": "mods/pokereport-spectral-blocks-1.0.0.jar",
-      "sha1": "c28ccfe0980619a546c7fefbaa42bbbb0f5ccaf1",
-      "size": 468419,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-blocks-1.0.0-c28ccfe09806.jar"
-    },
-    {
       "path": "mods/rctmod-jdUENp3C.jar",
       "sha1": "120887e0ed4e7a9a4db92a3e2029b3a122e6bfd2",
       "size": 6783347,
@@ -1595,6 +1345,96 @@
       "url": "https://cdn.modrinth.com/data/CBfM2yw7/versions/poXTxoNY/rctapi-fabric-1.21.1-0.16.0-beta.jar",
       "urls": [
         "https://cdn.modrinth.com/data/CBfM2yw7/versions/poXTxoNY/rctapi-fabric-1.21.1-0.16.0-beta.jar"
+      ]
+    },
+    {
+      "path": "mods/fabric-api-0.116.15+1.21.1.jar",
+      "sha1": "d25c793833a90cc028c9a61bc4546cd578a70ce1",
+      "size": 2452718,
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Nlt8gI9z/fabric-api-0.116.15%2B1.21.1.jar",
+      "urls": [
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/Nlt8gI9z/fabric-api-0.116.15%2B1.21.1.jar"
+      ]
+    },
+    {
+      "path": "mods/Cobbreeding-fabric-2.3.0.jar",
+      "sha1": "8bf8f20f8c5939395a9fbfda4f8e368b2889ea30",
+      "size": 475711,
+      "url": "https://cdn.modrinth.com/data/ItmVb4zY/versions/dED6lApR/Cobbreeding-fabric-2.3.0.jar",
+      "urls": [
+        "https://cdn.modrinth.com/data/ItmVb4zY/versions/dED6lApR/Cobbreeding-fabric-2.3.0.jar"
+      ]
+    },
+    {
+      "path": "mods/lunaeternal-0.1.0.jar",
+      "sha1": "fd31dfdedc7b563f55d3fe4a7a50c72d45436894",
+      "size": 141858767,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.9/lunaeternal-0.1.0-fd31dfdedc.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.9/lunaeternal-0.1.0-fd31dfdedc.jar"
+      ]
+    },
+    {
+      "path": "mods/lunaneon-0.1.0.jar",
+      "sha1": "1c8bd744f49099ebcaf8a235924be5418c5b3290",
+      "size": 5843451,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaneon-0.1.0-1c8bd744f4.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/lunaneon-0.1.0-1c8bd744f4.jar"
+      ]
+    },
+    {
+      "path": "mods/cobblemon-cards-1.0.5-luna1.jar",
+      "sha1": "8bc2992d9876c235a8e548749385fe70b2cc01ed",
+      "size": 23519539,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/cobblemon-cards-1.0.5-luna1-8bc2992d98.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/cobblemon-cards-1.0.5-luna1-8bc2992d98.jar"
+      ]
+    },
+    {
+      "path": "mods/cobblemon-additions-4.3.0-luna1.jar",
+      "sha1": "73366274a3b063f26c29e4a18b5cdf852e757844",
+      "size": 605112,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/cobblemon-additions-4.3.0-luna1-73366274a3.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/cobblemon-additions-4.3.0-luna1-73366274a3.jar"
+      ]
+    },
+    {
+      "path": "mods/armaduraspokereport-kits-completo-1.0.0.jar",
+      "sha1": "4edb88a80df6c26bc30cd5654db1f9d6bba70f54",
+      "size": 674002,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/armaduraspokereport-kits-completo-1.0.0-4edb88a80d.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/armaduraspokereport-kits-completo-1.0.0-4edb88a80d.jar"
+      ]
+    },
+    {
+      "path": "mods/eeveelution-armor-1.0.0.jar",
+      "sha1": "95dd5d5bf0c84a356a9c8b29760f2f2fe9058fb8",
+      "size": 319784,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/eeveelution-armor-1.0.0-95dd5d5bf0.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/eeveelution-armor-1.0.0-95dd5d5bf0.jar"
+      ]
+    },
+    {
+      "path": "mods/magikarp-animated-armor-1.0.0.jar",
+      "sha1": "16eba5c814cae92ce0b89b8700a93a2aef704328",
+      "size": 44336,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/magikarp-animated-armor-1.0.0-16eba5c814.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/magikarp-animated-armor-1.0.0-16eba5c814.jar"
+      ]
+    },
+    {
+      "path": "mods/pikachu-animated-armor-1.0.0.jar",
+      "sha1": "21e4f3efccbbf884a29e569f85d92df1fb8335f4",
+      "size": 150367,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pikachu-animated-armor-1.0.0-21e4f3efcc.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pikachu-animated-armor-1.0.0-21e4f3efcc.jar"
       ]
     }
   ]
