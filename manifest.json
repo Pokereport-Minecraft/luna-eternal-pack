@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.10",
+  "packVersion": "0.4.11",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -685,15 +685,6 @@
       ]
     },
     {
-      "path": "mods/xaeroworldmap-fabric-1.21.1-1.45.0.jar",
-      "sha1": "ebcaef4da6bc5feab9af80d31223e1833960e71d",
-      "size": 1451594,
-      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/i80CxP4n/xaeroworldmap-fabric-1.21.1-1.45.0.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/NcUtCpym/versions/i80CxP4n/xaeroworldmap-fabric-1.21.1-1.45.0.jar"
-      ]
-    },
-    {
       "path": "mods/supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
       "sha1": "8427e42f1db8ea7b4b6c21cc94bfcfa398f0ff63",
       "size": 206993,
@@ -727,15 +718,6 @@
       "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/hsWvcyFJ/entityculling-fabric-1.10.5-mc1.21.1.jar",
       "urls": [
         "https://cdn.modrinth.com/data/NNAgCjsB/versions/hsWvcyFJ/entityculling-fabric-1.10.5-mc1.21.1.jar"
-      ]
-    },
-    {
-      "path": "mods/xaerominimap-fabric-1.21.1-26.4.2.jar",
-      "sha1": "9293ef9b2626ae3180625c003290a838879cc0b4",
-      "size": 2233608,
-      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Tx54V6kI/xaerominimap-fabric-1.21.1-26.4.2.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/1bokaNcj/versions/Tx54V6kI/xaerominimap-fabric-1.21.1-26.4.2.jar"
       ]
     },
     {
@@ -1438,15 +1420,6 @@
       ]
     },
     {
-      "path": "mods/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar",
-      "sha1": "ee9a027a02c73397211272cd224b1d9c130ea89d",
-      "size": 14586010,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-halloween-0.4.8/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-halloween-0.4.8/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar"
-      ]
-    },
-    {
       "path": "mods/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
       "sha1": "df8c60b5184b910b33dc1e4236ba14de06551a37",
       "size": 280910,
@@ -1462,6 +1435,15 @@
       "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-blocks-1.0.0-c28ccfe09806.jar",
       "urls": [
         "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-blocks-1.0.0-c28ccfe09806.jar"
+      ]
+    },
+    {
+      "path": "mods/pokereport-spectral-mobs-2.0.9-halloween-level2-candidate.jar",
+      "sha1": "df03861592f506901089e5905883496e3fa87b12",
+      "size": 15440776,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.11/pokereport-spectral-mobs-2.0.9-halloween-level2-candidate.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.11/pokereport-spectral-mobs-2.0.9-halloween-level2-candidate.jar"
       ]
     }
   ]
