@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.9",
+  "packVersion": "0.4.10",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1435,6 +1435,33 @@
       "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pikachu-animated-armor-1.0.0-21e4f3efcc.jar",
       "urls": [
         "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pikachu-animated-armor-1.0.0-21e4f3efcc.jar"
+      ]
+    },
+    {
+      "path": "mods/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar",
+      "sha1": "ee9a027a02c73397211272cd224b1d9c130ea89d",
+      "size": 14586010,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-halloween-0.4.8/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-halloween-0.4.8/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar"
+      ]
+    },
+    {
+      "path": "mods/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
+      "sha1": "df8c60b5184b910b33dc1e4236ba14de06551a37",
+      "size": 280910,
+      "url": "https://github.com/thewinnt/Cutscene-API/releases/download/v1.6.6-1.21.1/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
+      "urls": [
+        "https://github.com/thewinnt/Cutscene-API/releases/download/v1.6.6-1.21.1/cutscene-api-mc1.21.1-fabric-1.6.6.jar"
+      ]
+    },
+    {
+      "path": "mods/pokereport-spectral-blocks-1.0.0.jar",
+      "sha1": "c28ccfe0980619a546c7fefbaa42bbbb0f5ccaf1",
+      "size": 468419,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-blocks-1.0.0-c28ccfe09806.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-blocks-1.0.0-c28ccfe09806.jar"
       ]
     }
   ]
