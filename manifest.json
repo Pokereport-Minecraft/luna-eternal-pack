@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.5",
+  "packVersion": "0.4.8",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1521,13 +1521,14 @@
       ]
     },
     {
-      "path": "mods/pokereport-spectral-mobs-2.0.3-entry-recovery-6a77368a5f.jar",
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.3-entry-recovery-6a77368a5f.jar",
+      "path": "mods/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-halloween-0.4.8/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/pokereport-spectral-mobs-2.0.3-entry-recovery-6a77368a5f.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-halloween-0.4.8/pokereport-spectral-mobs-2.0.8-halloween-field-fix-ee9a027a02.jar"
       ],
-      "sha1": "6a77368a5f876da20744261cb9d63623c899ce02",
-      "size": 9722267
+      "sha1": "ee9a027a02c73397211272cd224b1d9c130ea89d",
+      "size": 14586010,
+      "sha256": "9a46bf2f07cdf9fcfc5b2258f9716158269dc038ec4f24c76a56383bcd4ca87a"
     },
     {
       "path": "mods/cutscene-api-mc1.21.1-fabric-1.6.6.jar",
