@@ -3,5 +3,8 @@
   "manifest": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/manifest-8f9bfe92b4.json",
   "sha1": "8f9bfe92b495df2c938ce6304d98151d06b58cb4",
   "size": 66425,
-  "publicado": "2026-11-09T06:01:23.005379+00:00"
+  "publicado": "2026-11-09T06:01:23.005379+00:00",
+  "espejos": [
+    "https://raw.githubusercontent.com/Pokereport-Minecraft/luna-eternal-pack/16344bd98e0fad248e14c35b1c57c4a722dde56a/manifest.json"
+  ]
 }
