@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.56",
+  "packVersion": "0.4.57",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1439,11 +1439,11 @@
     },
     {
       "path": "resourcepacks/COBBLEVERSE RP.zip",
-      "sha1": "6435f6c1c3012ef6fdd931ddcc0f597452b08af7",
-      "size": 2113033,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.56/COBBLEVERSE-RP-legendarios-0.4.56.zip",
+      "sha1": "30b81d6e901917b813bd595517a7df5a1c3646fe",
+      "size": 2110381,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.57/COBBLEVERSE-RP-legendarios-0.4.57.zip",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.56/COBBLEVERSE-RP-legendarios-0.4.56.zip"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.57/COBBLEVERSE-RP-legendarios-0.4.57.zip"
       ]
     },
     {
