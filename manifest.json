@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.58",
+  "packVersion": "0.4.59",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1258,13 +1258,10 @@
     },
     {
       "path": "options.txt",
-      "sha1": "dd41d13f539a6714328f200104fc553be7db0f29",
-      "size": 10126,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/player-defaults-dd41d13f53-options.txt",
-      "once": true,
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets/player-defaults-dd41d13f53-options.txt"
-      ]
+      "sha1": "afb9989acedd26569aca30fa1e9bd33c73fb5615",
+      "size": 10258,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/player-defaults-0459-options.txt",
+      "once": true
     },
     {
       "path": "defaultoptions.journal.json",
@@ -1511,21 +1508,15 @@
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "d5241c1ad55d36bc4980165eeb73b2c3aafdadd1",
-      "size": 297934995,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.58/lunaeternal-legendarios-0.4.58.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.58/lunaeternal-legendarios-0.4.58.jar"
-      ]
+      "sha1": "ef65a71c30c062cf74f3bd0708af3a28a640d2e1",
+      "size": 297865334,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/lunaeternal-0.1.0.jar"
     },
     {
       "path": "mods/pokereport-nether-terminal-0.10.9.jar",
-      "sha1": "040614513963c65f21dcf838b1be727e1c250247",
-      "size": 5343006,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.58/pokereport-nether-terminal-0.10.9-0.4.58.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.58/pokereport-nether-terminal-0.10.9-0.4.58.jar"
-      ]
+      "sha1": "86e8fff51408a7f4445712d1533b5530b28bb3a5",
+      "size": 5349774,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/pokereport-nether-terminal-0.10.9.jar"
     },
     {
       "path": "mods/pokereport-spectral-mobs-2.7.5-nether-qa.jar",
@@ -1535,6 +1526,18 @@
       "urls": [
         "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.53/pokereport-spectral-mobs-2.7.5-nether-qa.jar"
       ]
+    },
+    {
+      "path": "mods/cobblemon-riders-call-fabric-1.1.1+1.21.1.jar",
+      "sha1": "434da0554fb43d3df901ec581aa51cdd5bbaad43",
+      "size": 613285,
+      "url": "https://cdn.modrinth.com/data/cQIJ55ax/versions/O5vus54N/cobblemon-riders-call-fabric-1.1.1%2B1.21.1.jar"
+    },
+    {
+      "path": "mods/pokereport-mount-catalog-1.0.0.jar",
+      "sha1": "047ccd72214bf0277d738ece72819f8d8f71fc12",
+      "size": 164380,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/pokereport-mount-catalog-1.0.0.jar"
     }
   ]
 }
