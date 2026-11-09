@@ -1,10 +1,10 @@
 {
   "packVersion": "0.4.59",
-  "manifest": "https://raw.githubusercontent.com/Pokereport-Minecraft/luna-eternal-pack/cddb988ac09e0c4144ca1f2ca9b708e98a106553/manifest.json",
-  "sha1": "c4a23b1dc5016809a60563676f4c01a7b30c0baf",
-  "size": 66779,
-  "publicado": "2026-11-09T06:08:47.176001+00:00",
+  "manifest": "https://raw.githubusercontent.com/Pokereport-Minecraft/luna-eternal-pack/53983e6b755bf6b95d730ca6ce42a9df0ad2f7e0/manifest.json",
+  "sha1": "823c6c917fed58a323e637e4f8c3d308fc117a4c",
+  "size": 67223,
+  "publicado": "2026-11-09T06:14:51.491815+00:00",
   "espejos": [
-    "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/manifest-c4a23b1dc5.json"
+    "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/manifest-823c6c917f.json"
   ]
 }
