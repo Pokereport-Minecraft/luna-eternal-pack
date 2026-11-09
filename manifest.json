@@ -1537,7 +1537,11 @@
       "path": "mods/pokereport-mount-catalog-1.0.0.jar",
       "sha1": "047ccd72214bf0277d738ece72819f8d8f71fc12",
       "size": 164380,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/pokereport-mount-catalog-1.0.0.jar"
+      "url": "https://raw.githubusercontent.com/Pokereport-Minecraft/luna-eternal-pack/177024b701fa6ad25ca69e5c06f97f719063c77d/mods/pokereport-mount-catalog-1.0.0.jar",
+      "urls": [
+        "https://raw.githubusercontent.com/Pokereport-Minecraft/luna-eternal-pack/177024b701fa6ad25ca69e5c06f97f719063c77d/mods/pokereport-mount-catalog-1.0.0.jar",
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/pokereport-mount-catalog-1.0.0.jar"
+      ]
     }
   ]
 }
