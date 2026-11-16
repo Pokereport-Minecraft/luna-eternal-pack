@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.65",
+  "packVersion": "0.4.66",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1516,12 +1516,12 @@
       ]
     },
     {
-      "path": "mods/pokereport-nether-terminal-0.12.0.jar",
-      "sha1": "bfeeafbea42e0c0d54c4460e22a1bc0942ab4e69",
-      "size": 78075343,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.64/pokereport-nether-terminal-0.12.0-bfeeafbea4.jar",
+      "path": "mods/pokereport-nether-terminal-0.12.1.jar",
+      "sha1": "8f005723be19d5df33a964cdaf867cdabda2dac8",
+      "size": 78161181,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.66/pokereport-nether-terminal-0.12.1-8f005723be.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.64/pokereport-nether-terminal-0.12.0-bfeeafbea4.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.66/pokereport-nether-terminal-0.12.1-8f005723be.jar"
       ]
     },
     {
