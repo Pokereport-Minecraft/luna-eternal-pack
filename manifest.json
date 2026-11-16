@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.66",
+  "packVersion": "0.4.67",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1508,11 +1508,11 @@
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "7f74692867552b844e2577e175828a5abece3ce9",
-      "size": 303210475,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.65/lunaeternal-pokevoice2-7f74692867.jar",
+      "sha1": "6d206d8593d21f9f703f2f0c381f3644aa3eb620",
+      "size": 336724847,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.67/lunaeternal-0.1.0-convocadores-6d206d8593.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.65/lunaeternal-pokevoice2-7f74692867.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.67/lunaeternal-0.1.0-convocadores-6d206d8593.jar"
       ]
     },
     {
