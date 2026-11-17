@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.68",
+  "packVersion": "0.4.69",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1508,20 +1508,20 @@
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "6d206d8593d21f9f703f2f0c381f3644aa3eb620",
-      "size": 336724847,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.67/lunaeternal-0.1.0-convocadores-6d206d8593.jar",
+      "sha1": "d0b125586135c4b338dc4e5349eb9cd3628e541f",
+      "size": 336730894,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.69/core-legendary-candidate-d0b1255861.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.67/lunaeternal-0.1.0-convocadores-6d206d8593.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.69/core-legendary-candidate-d0b1255861.jar"
       ]
     },
     {
       "path": "mods/pokereport-nether-terminal-0.12.1.jar",
-      "sha1": "1d50a4cafeb800c63b6ad7ca57323f83086c313a",
-      "size": 78162851,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.68/pokereport-nether-terminal-0.12.1-1d50a4cafe.jar",
+      "sha1": "80ffe731a7682f52487e2618a523e3728902c5b9",
+      "size": 78167489,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.69/nether-client-candidate-80ffe731a7.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.68/pokereport-nether-terminal-0.12.1-1d50a4cafe.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.69/nether-client-candidate-80ffe731a7.jar"
       ]
     },
     {
