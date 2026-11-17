@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.67",
+  "packVersion": "0.4.68",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -156,11 +156,11 @@
     },
     {
       "path": "mods/cobblecuisine-2.0.1-1.7.rc1.jar",
-      "sha1": "31cf544fe61bb9c21fa8dafe5c03a428049a0f37",
-      "size": 683115,
-      "url": "https://cdn.modrinth.com/data/dlx62Wp3/versions/KQwSroDP/cobblecuisine-2.0.1-1.7-rc1.jar",
+      "sha1": "8804e8ea2ff6fa6942ca4fa7be65ee8978dfa887",
+      "size": 683233,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.68/cobblecuisine-2.0.1-1.7.rc1-8804e8ea2f.jar",
       "urls": [
-        "https://cdn.modrinth.com/data/dlx62Wp3/versions/KQwSroDP/cobblecuisine-2.0.1-1.7-rc1.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.68/cobblecuisine-2.0.1-1.7.rc1-8804e8ea2f.jar"
       ]
     },
     {
@@ -1364,11 +1364,11 @@
     },
     {
       "path": "mods/cobblemon-cards-1.0.5-luna1.jar",
-      "sha1": "444cc6ef12469719e1c62c4fd6a244983be7a314",
-      "size": 23520320,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.60/cobblemon-cards-1.0.5-luna1.jar",
+      "sha1": "c433518eba980400d5b9913df205b1cce07fd0f4",
+      "size": 23450709,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.68/cobblemon-cards-1.0.5-luna1-c433518eba.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.60/cobblemon-cards-1.0.5-luna1.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.68/cobblemon-cards-1.0.5-luna1-c433518eba.jar"
       ]
     },
     {
@@ -1517,11 +1517,11 @@
     },
     {
       "path": "mods/pokereport-nether-terminal-0.12.1.jar",
-      "sha1": "8f005723be19d5df33a964cdaf867cdabda2dac8",
-      "size": 78161181,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.66/pokereport-nether-terminal-0.12.1-8f005723be.jar",
+      "sha1": "1d50a4cafeb800c63b6ad7ca57323f83086c313a",
+      "size": 78162851,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.68/pokereport-nether-terminal-0.12.1-1d50a4cafe.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.66/pokereport-nether-terminal-0.12.1-8f005723be.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.68/pokereport-nether-terminal-0.12.1-1d50a4cafe.jar"
       ]
     },
     {
@@ -1550,5 +1550,5 @@
       ]
     }
   ],
-  "candidate_status": "REVIEW ONLY - NOT FOR PUBLICATION OR INSTALLATION BEFORE EXACT COMPOUND BOOT"
+  "release_status": "VERIFIED_MAIN_ARTIFACTS"
 }
