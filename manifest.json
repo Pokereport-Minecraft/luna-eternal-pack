@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.69",
+  "packVersion": "0.4.70",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1508,20 +1508,20 @@
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "d0b125586135c4b338dc4e5349eb9cd3628e541f",
-      "size": 336730894,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.69/core-legendary-candidate-d0b1255861.jar",
+      "sha1": "43099e3364f01d0086ec1296f0ee2b35b7d4e571",
+      "size": 336733297,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.70/lunaeternal-ticket-policy-43099e3364.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.69/core-legendary-candidate-d0b1255861.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.70/lunaeternal-ticket-policy-43099e3364.jar"
       ]
     },
     {
       "path": "mods/pokereport-nether-terminal-0.12.1.jar",
-      "sha1": "80ffe731a7682f52487e2618a523e3728902c5b9",
-      "size": 78167489,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.69/nether-client-candidate-80ffe731a7.jar",
+      "sha1": "a706b90f7a42da410a82e3eeccbc955059214c6c",
+      "size": 78181716,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.70/nether-ticket-policy-a706b90f7a.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.69/nether-client-candidate-80ffe731a7.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.70/nether-ticket-policy-a706b90f7a.jar"
       ]
     },
     {
