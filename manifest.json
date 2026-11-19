@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.71",
+  "packVersion": "0.4.72-RC2",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1550,12 +1550,12 @@
       ]
     },
     {
-      "path": "mods/pokereport-casino-visual-1.0.0.jar",
-      "size": 1463816,
-      "sha1": "68945be4ec80e0060ce45479d44198de1c7c3305",
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.71/pokereport-casino-visual-1.0.0.jar",
+      "path": "mods/pokereport-casino-visual-1.1.0-rc.2.jar",
+      "size": 17319662,
+      "sha1": "2e2ec072ac028e819c72c0e19d3fdf7c9c177ac1",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.72-RC2/pokereport-casino-visual-1.1.0-rc.2.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.71/pokereport-casino-visual-1.0.0.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.72-RC2/pokereport-casino-visual-1.1.0-rc.2.jar"
       ]
     }
   ],
