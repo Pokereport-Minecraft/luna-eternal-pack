@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.72-RC2",
+  "packVersion": "0.4.73-RC1",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1516,12 +1516,12 @@
       ]
     },
     {
-      "path": "mods/pokereport-nether-terminal-0.12.1.jar",
-      "sha1": "a706b90f7a42da410a82e3eeccbc955059214c6c",
-      "size": 78181716,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.70/nether-ticket-policy-a706b90f7a.jar",
+      "path": "mods/pokereport-nether-terminal-0.13.0.jar",
+      "sha1": "e47b89f49f5287fdebc2d3fe95b0ded051c4c2a2",
+      "size": 80722731,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.73-RC1/pokereport-nether-terminal-0.13.0.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.70/nether-ticket-policy-a706b90f7a.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.73-RC1/pokereport-nether-terminal-0.13.0.jar"
       ]
     },
     {
@@ -1559,5 +1559,5 @@
       ]
     }
   ],
-  "release_status": "VERIFIED_MAIN_ARTIFACTS"
+  "release_status": "LOCAL_RELEASE_CANDIDATE"
 }
