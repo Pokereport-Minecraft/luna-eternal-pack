@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.73-RC1",
+  "packVersion": "0.4.74-RC1",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -857,12 +857,13 @@
     },
     {
       "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
-      "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0",
       "size": 1131265,
+      "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0",
       "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
       "urls": [
         "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar"
-      ]
+      ],
+      "sha512": "353169f85fa63e73ce9bdd0d4ddce54e3cbc4d71153a93c982f74c68fd93325986663f94fc2f2b10f4427e8b15a0485c608c5587b3840d933204b50ea4cb6d4c"
     },
     {
       "path": "mods/Carved Wood-fabric-1.21.1-1.9.8-B.jar",
@@ -1471,15 +1472,6 @@
       ]
     },
     {
-      "path": "mods/PokeReport-Ho-Oh-1.21.1-black-november.jar",
-      "sha1": "a3b382bc66985a449710267423becedf12119c79",
-      "size": 959778,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.52/PokeReport-Ho-Oh-1.21.1-black-november-b96f4d0665.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.52/PokeReport-Ho-Oh-1.21.1-black-november-b96f4d0665.jar"
-      ]
-    },
-    {
       "path": "mods/PokeReport-Mega-Rayquaza-1.21.1-black-november.jar",
       "sha1": "d138ba75856d7f9db8f4538f1e952384083e9b81",
       "size": 197635,
@@ -1516,15 +1508,6 @@
       ]
     },
     {
-      "path": "mods/pokereport-nether-terminal-0.13.0.jar",
-      "sha1": "e47b89f49f5287fdebc2d3fe95b0ded051c4c2a2",
-      "size": 80722731,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.73-RC1/pokereport-nether-terminal-0.13.0.jar",
-      "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.73-RC1/pokereport-nether-terminal-0.13.0.jar"
-      ]
-    },
-    {
       "path": "mods/pokereport-spectral-mobs-2.7.5-nether-qa.jar",
       "sha1": "2943d3f7bfa60ca7a5417aad5c5f9f4fd5d1ca4e",
       "size": 31805511,
@@ -1557,7 +1540,45 @@
       "urls": [
         "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.72-RC2/pokereport-casino-visual-1.1.0-rc.2.jar"
       ]
+    },
+    {
+      "path": "mods/reactivemusic-fabric-1.3.5+1.21.1.jar",
+      "size": 294710534,
+      "sha1": "24c34c2ce89ff698a978143d3001ed4b25749599",
+      "url": "https://cdn.modrinth.com/data/Bqnfeesx/versions/CdeSdetl/reactivemusic-fabric-1.3.5%2B1.21.1.jar",
+      "urls": [
+        "https://cdn.modrinth.com/data/Bqnfeesx/versions/CdeSdetl/reactivemusic-fabric-1.3.5%2B1.21.1.jar"
+      ],
+      "sha512": "769f1fee926c8aa0c33f0a4030c8e938e9ff317bbde3c5e1258137b2528e215d0696be9ad9482cc8e83830b848766a12fe802527a213c890051006ce809b2f58"
+    },
+    {
+      "path": "resourcepacks/jor'sCobbelemonMuiscPack2.1.zip",
+      "size": 341632899,
+      "sha1": "2689e761e848da9ac858333a728423a30c13b8ea",
+      "url": "https://cdn.modrinth.com/data/8Ly9MKJa/versions/JgH8a30Q/jor%27sCobbelemonMuiscPack2.1.zip",
+      "urls": [
+        "https://cdn.modrinth.com/data/8Ly9MKJa/versions/JgH8a30Q/jor%27sCobbelemonMuiscPack2.1.zip"
+      ],
+      "sha512": "b7f0458bc405b24691695a5c5024b26fe6f2362a6964697de4304e1814d8d10f496d228803ec077996531018ad7a2bed920b33bd0f72298e7a457c657dd1eb3e"
+    },
+    {
+      "path": "mods/pokereport-nether-terminal-0.13.0-entrada.jar",
+      "size": 80727106,
+      "sha1": "a85d31fb314b295a200d07a0be9d7271f82f5143",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.74-RC1/pokereport-nether-terminal-0.13.0-entrada.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.74-RC1/pokereport-nether-terminal-0.13.0-entrada.jar"
+      ]
+    },
+    {
+      "path": "mods/PokeReport-Ho-Oh-1.21.1-shiny.jar",
+      "size": 964859,
+      "sha1": "ec79ac4d07f99831e471814baba4d4043dc6d85e",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.74-RC1/PokeReport-Ho-Oh-1.21.1-shiny.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.74-RC1/PokeReport-Ho-Oh-1.21.1-shiny.jar"
+      ]
     }
   ],
-  "release_status": "LOCAL_RELEASE_CANDIDATE"
+  "release_status": "candidate"
 }
