@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.75-RC1",
+  "packVersion": "0.4.77",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1500,11 +1500,11 @@
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "43099e3364f01d0086ec1296f0ee2b35b7d4e571",
-      "size": 336733297,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.70/lunaeternal-ticket-policy-43099e3364.jar",
+      "sha1": "42fdde1fa8ec1c857156f29c5948e3a48c3d9a42",
+      "size": 338067513,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.77/lunaeternal-complete-dex-0.4.77.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.70/lunaeternal-ticket-policy-43099e3364.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.77/lunaeternal-complete-dex-0.4.77.jar"
       ]
     },
     {
@@ -1580,5 +1580,5 @@
       ]
     }
   ],
-  "release_status": "candidate"
+  "release_status": "stable"
 }
