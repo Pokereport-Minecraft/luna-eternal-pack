@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.77",
+  "packVersion": "0.4.78",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1500,11 +1500,11 @@
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "42fdde1fa8ec1c857156f29c5948e3a48c3d9a42",
-      "size": 338067513,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.77/lunaeternal-complete-dex-0.4.77.jar",
+      "sha1": "fd3e4940a216f3c6aacf343366b58d1e0a961872",
+      "size": 338067923,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.78/lunaeternal-pokepad-0.4.78.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.77/lunaeternal-complete-dex-0.4.77.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.78/lunaeternal-pokepad-0.4.78.jar"
       ]
     },
     {
