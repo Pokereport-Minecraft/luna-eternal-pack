@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.80",
+  "packVersion": "0.4.81",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1567,14 +1567,14 @@
       "sha512": "34c8fc1f3240f3a8608aaa8a501cc8106446ac49ac37ebd149f903a4e117b42598f302ee068afd52a70745532f358e642f9d18f6df190b4690cfd60f85393453"
     },
     {
-      "path": "mods/pokereport-regional-music-1.0.1.jar",
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.80/pokereport-regional-music-1.0.1.jar",
+      "path": "mods/pokereport-regional-music-1.0.2.jar",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.81/pokereport-regional-music-1.0.2.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.80/pokereport-regional-music-1.0.1.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.81/pokereport-regional-music-1.0.2.jar"
       ],
-      "size": 8987,
-      "sha1": "62dcbf75e2179590d00e3fd7f989035095e1db04",
-      "sha512": "fd023e0990672752c2f03136f6a1da68dfd21fd284a4a2af1af4fe395f02c5dbde89af34cd6d2628d4c5779dcadd1a6e3bac15d2bacff1d5518967db482fc4bd"
+      "size": 11757,
+      "sha1": "22283d96977a715322425ab1d2648fdee8e5b72e",
+      "sha512": "febf3c680fcb9217e257265f28a25ea9e0696699bfa88cafa7a721d0752f6da525af9b2e340774753f8ff6b04b897851b3de1b9d5a44301aca91cebb81566cfc"
     }
   ],
   "release_status": "stable"
