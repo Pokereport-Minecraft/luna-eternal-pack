@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.78",
+  "packVersion": "0.4.79",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -649,15 +649,6 @@
       ]
     },
     {
-      "path": "mods/infinite-music-0.4.6.jar",
-      "sha1": "72ac27231cd80aab7ea509da6694c3696dc4c96a",
-      "size": 45913,
-      "url": "https://cdn.modrinth.com/data/OJLdOa8k/versions/cIfcDLaq/infinite-music-0.4.6.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/OJLdOa8k/versions/cIfcDLaq/infinite-music-0.4.6.jar"
-      ]
-    },
-    {
       "path": "mods/Luckys-Cozyhome-Refurnished-1.1.20.jar",
       "sha1": "e65e20f982be0be2bf5e94101f560049b0463ab3",
       "size": 3121070,
@@ -1259,10 +1250,14 @@
     },
     {
       "path": "options.txt",
-      "sha1": "afb9989acedd26569aca30fa1e9bd33c73fb5615",
+      "sha1": "9996ad7a142ca9c9f9c616c7753196b76653315e",
       "size": 10258,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.59/player-defaults-0459-options.txt",
-      "once": true
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/player-defaults-0479-options.txt",
+      "once": true,
+      "sha512": "73f3a9b51e2a18c7fe636f34f58ba8594a0fec04cdff5bec54ee1d0e5d01c1eaf640f9455d8554b295ae10f9aad0e558b853c6199908505aed28165c92a16938",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/player-defaults-0479-options.txt"
+      ]
     },
     {
       "path": "defaultoptions.journal.json",
@@ -1572,11 +1567,22 @@
     },
     {
       "path": "mods/PokeReport-Ho-Oh-1.21.1-shiny.jar",
-      "size": 964859,
-      "sha1": "ec79ac4d07f99831e471814baba4d4043dc6d85e",
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.74-RC1/PokeReport-Ho-Oh-1.21.1-shiny.jar",
+      "size": 964861,
+      "sha1": "16a307e871ef3ad166a6cc25813d130a8dca57ac",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/PokeReport-Ho-Oh-1.21.1-shiny-2000.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.74-RC1/PokeReport-Ho-Oh-1.21.1-shiny.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/PokeReport-Ho-Oh-1.21.1-shiny-2000.jar"
+      ],
+      "sha512": "34c8fc1f3240f3a8608aaa8a501cc8106446ac49ac37ebd149f903a4e117b42598f302ee068afd52a70745532f358e642f9d18f6df190b4690cfd60f85393453"
+    },
+    {
+      "path": "mods/pokereport-regional-music-1.0.0.jar",
+      "sha1": "7574dd3ec912b9eba73a6742c259dd28df9bd314",
+      "sha512": "4abe67af48e872796b2996ec16aae193843a73a6249708f5c35a7b3ef0bd42ef89551d1588a0b5992389dd4d6a623350ffa62fbb07a7e03a36e05d342c96a626",
+      "size": 5228,
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/pokereport-regional-music-1.0.0.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/pokereport-regional-music-1.0.0.jar"
       ]
     }
   ],
