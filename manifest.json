@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.79",
+  "packVersion": "0.4.80",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -875,15 +875,6 @@
       ]
     },
     {
-      "path": "mods/musicnotification-fabric-3.3.1+mc1.21.1.jar",
-      "sha1": "badd3d990d984770efb399b617f0fb702ef911c2",
-      "size": 172313,
-      "url": "https://cdn.modrinth.com/data/A4YQgwzz/versions/7lFzffKF/musicnotification-fabric-3.3.1%2Bmc1.21.1.jar",
-      "urls": [
-        "https://cdn.modrinth.com/data/A4YQgwzz/versions/7lFzffKF/musicnotification-fabric-3.3.1%2Bmc1.21.1.jar"
-      ]
-    },
-    {
       "path": "mods/modernfix-fabric-5.25.1+mc1.21.1.jar",
       "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872",
       "size": 471258,
@@ -1576,14 +1567,14 @@
       "sha512": "34c8fc1f3240f3a8608aaa8a501cc8106446ac49ac37ebd149f903a4e117b42598f302ee068afd52a70745532f358e642f9d18f6df190b4690cfd60f85393453"
     },
     {
-      "path": "mods/pokereport-regional-music-1.0.0.jar",
-      "sha1": "7574dd3ec912b9eba73a6742c259dd28df9bd314",
-      "sha512": "4abe67af48e872796b2996ec16aae193843a73a6249708f5c35a7b3ef0bd42ef89551d1588a0b5992389dd4d6a623350ffa62fbb07a7e03a36e05d342c96a626",
-      "size": 5228,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/pokereport-regional-music-1.0.0.jar",
+      "path": "mods/pokereport-regional-music-1.0.1.jar",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.80/pokereport-regional-music-1.0.1.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/pokereport-regional-music-1.0.0.jar"
-      ]
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.80/pokereport-regional-music-1.0.1.jar"
+      ],
+      "size": 8987,
+      "sha1": "62dcbf75e2179590d00e3fd7f989035095e1db04",
+      "sha512": "fd023e0990672752c2f03136f6a1da68dfd21fd284a4a2af1af4fe395f02c5dbde89af34cd6d2628d4c5779dcadd1a6e3bac15d2bacff1d5518967db482fc4bd"
     }
   ],
   "release_status": "stable"
