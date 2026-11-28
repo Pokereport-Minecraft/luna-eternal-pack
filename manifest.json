@@ -1,5 +1,5 @@
 {
-  "packVersion": "0.4.81",
+  "packVersion": "0.4.84",
   "minecraft": "1.21.1",
   "fabricLoader": "0.19.5",
   "server": {
@@ -1486,11 +1486,12 @@
     },
     {
       "path": "mods/lunaeternal-0.1.0.jar",
-      "sha1": "fd3e4940a216f3c6aacf343366b58d1e0a961872",
-      "size": 338067923,
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.78/lunaeternal-pokepad-0.4.78.jar",
+      "size": 338079819,
+      "sha1": "8553ece5454f7ec41c3b99eb057a1edacfdf870d",
+      "sha512": "6a39bcdd6ddd33991eaf66bf77cf8c26d21abc919500ac824243069b9f72a1c76bb2fab681ff3c12de238dc3903d15bee938defb208ea964a998b24eda5bc536",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/lunaeternal-cliente-0.4.84.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.78/lunaeternal-pokepad-0.4.78.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/lunaeternal-cliente-0.4.84.jar"
       ]
     },
     {
@@ -1549,22 +1550,23 @@
     },
     {
       "path": "mods/pokereport-nether-terminal-0.13.0-entrada.jar",
-      "size": 80727106,
-      "sha1": "a85d31fb314b295a200d07a0be9d7271f82f5143",
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.74-RC1/pokereport-nether-terminal-0.13.0-entrada.jar",
+      "size": 80798749,
+      "sha1": "0f6b865fc958f7d07dcb2c2e3eafdf3c7290cca4",
+      "sha512": "8199dbec3a259b32b08332cab4fd39cfdb242ecbd0a9cafc2ca8ba9f9c0eda2b4db3bf9047f35877cc6949d5626b11b719327faff2f4f5d02cc40920e0644ad1",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/pokereport-nether-terminal-cliente-0.4.84.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.74-RC1/pokereport-nether-terminal-0.13.0-entrada.jar"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/pokereport-nether-terminal-cliente-0.4.84.jar"
       ]
     },
     {
       "path": "mods/PokeReport-Ho-Oh-1.21.1-shiny.jar",
-      "size": 964861,
-      "sha1": "16a307e871ef3ad166a6cc25813d130a8dca57ac",
-      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/PokeReport-Ho-Oh-1.21.1-shiny-2000.jar",
+      "size": 964860,
+      "sha1": "d8a931809e9f6d745fe694a3da156e496af93713",
+      "sha512": "42cb5fd97b95649405ce6f80c2065d490efde455238d66a454ffa80eed3422ac55a07ba014e39e4c1abf65132394c6a7adb9ce4029ae177d31cc15fec348b49d",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/PokeReport-Ho-Oh-1.21.1-shiny-1500.jar",
       "urls": [
-        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.79/PokeReport-Ho-Oh-1.21.1-shiny-2000.jar"
-      ],
-      "sha512": "34c8fc1f3240f3a8608aaa8a501cc8106446ac49ac37ebd149f903a4e117b42598f302ee068afd52a70745532f358e642f9d18f6df190b4690cfd60f85393453"
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/PokeReport-Ho-Oh-1.21.1-shiny-1500.jar"
+      ]
     },
     {
       "path": "mods/pokereport-regional-music-1.0.2.jar",
@@ -1575,6 +1577,57 @@
       "size": 11757,
       "sha1": "22283d96977a715322425ab1d2648fdee8e5b72e",
       "sha512": "febf3c680fcb9217e257265f28a25ea9e0696699bfa88cafa7a721d0752f6da525af9b2e340774753f8ff6b04b897851b3de1b9d5a44301aca91cebb81566cfc"
+    },
+    {
+      "path": "mods/luna-intelligence-0.3.2.jar",
+      "size": 301080,
+      "sha1": "f324d1b94f4a4b02d397b946cfa7ede37f1a2f16",
+      "sha512": "ebd2aede93f0cb96d3c0d642e62f35b1c546c07293eaa1001b2d9f2c1c6f4b2e4e2905c3784fc6b7e91684dc990ae0484feee4ded317f852b320bad59c2556d3",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/luna-intelligence-0.3.2.jar",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/luna-intelligence-0.3.2.jar"
+      ]
+    },
+    {
+      "path": "mods/pokebelt-0.1.6.jar",
+      "size": 1200549,
+      "sha1": "3bde77ae9229cf78351ad66f429def89296678fd",
+      "sha512": "7af843473ae0d3e6c89c22ccd0acd5a60bfc5574848219dfd11218e70bc9c2db17d3b4712da20a063cd6cf87337ccd75fbc669a60c0412f9d17ccfda04d7dd42",
+      "url": "https://cdn.modrinth.com/data/kgst0RnJ/versions/uLTMTOGH/pokebelt-0.1.6.jar",
+      "urls": [
+        "https://cdn.modrinth.com/data/kgst0RnJ/versions/uLTMTOGH/pokebelt-0.1.6.jar"
+      ]
+    },
+    {
+      "path": "mods/cobblemon_quick_teams-1.5.5.jar",
+      "size": 86006,
+      "sha1": "9ad898c8ca3b750e585432b19dd8b481ebcd577d",
+      "sha512": "2c6b6e7247679392516b9c8094673b706f0113a7aac3cc7049f075a7bcef4e91f6b7971e0c989f2ed503cb507deaa21f64622e184f2df54a6ca91f911ca67ef1",
+      "url": "https://cdn.modrinth.com/data/cbuAv7GB/versions/gwcpFZqi/cobblemon_quick_teams-1.5.5.jar",
+      "urls": [
+        "https://cdn.modrinth.com/data/cbuAv7GB/versions/gwcpFZqi/cobblemon_quick_teams-1.5.5.jar"
+      ]
+    },
+    {
+      "path": "config/pokebelt.json",
+      "size": 444,
+      "sha1": "546d0ca90baeae10a8a0055ac8adb6901cc4d51a",
+      "sha512": "1c74dfc6575ea0b83ec692d7f6700368acbb8d162a7987758f0b6fa45250b48685904122a755454c071fb55df7f9118b56bcab7b10cf4704aaa32ada0e8f59b3",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/pokebelt-config-0.4.84.json",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/pokebelt-config-0.4.84.json"
+      ],
+      "once": true
+    },
+    {
+      "path": "config/defaultoptions/keybindings.txt",
+      "size": 6163,
+      "sha1": "db6036f5498d14a2ad6eaf01fb031186bc8bd003",
+      "sha512": "134acf41e6207e8a741e18be671d3a6f1b9014d415a00c97ebbc75d3fac70037531ff5fdd2d9944dc0b99d2202792f6ade6f7f68123778aed477cc338557f78f",
+      "url": "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/default-keybindings-0.4.84.txt",
+      "urls": [
+        "https://github.com/Pokereport-Minecraft/luna-eternal-pack/releases/download/pack-assets-0.4.84/default-keybindings-0.4.84.txt"
+      ]
     }
   ],
   "release_status": "stable"
